@@ -1,1 +1,1 @@
-export * from './shuffle-array'
+export {shuffleArray} from './shuffle-array'

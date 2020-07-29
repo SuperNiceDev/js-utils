@@ -1,1 +1,1 @@
-export * from './local-strorage'
+export * as localStrorage  from './local-strorage'
