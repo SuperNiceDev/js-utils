@@ -1,4 +1,4 @@
-export { isUserAgentSearchBot } from './browser'
+export { default as isUserAgentSearchBot } from './browser/isUserAgentSearchBot'
 // import * as browser from './browser'
 // export {browser}
 
