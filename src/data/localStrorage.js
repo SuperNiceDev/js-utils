@@ -1,7 +1,15 @@
 export function getLocalStorageItem (pId)
 {
   const ls = localStorage || window.localStorage
-  if (ls) return JSON.parse(ls.getItem(pId))
+  try
+  {
+    return JSON.parse(ls.getItem(pId))
+  }
+  catch (err)
+  {
+    // return undefined
+    return 'ERROR_NO_VALUE'
+  }
 }
 
 
