@@ -2,6 +2,10 @@ export { default as isUserAgentSearchBot } from './browser/isUserAgentSearchBot'
 // import * as browser from './browser'
 // export {browser}
 
+export { getLocalStorageItem, setLocalStorageItem } from './data/localStrorage'
+
+export { default as loadScript } from './script/loadScript'
+
 export { default as cleanPath } from './string/cleanPath'
 export { default as fixedEncodeURIComponent } from './string/fixedEncodeURIComponent'
 export { default as replaceUmlauts } from './string/replaceUmlauts'

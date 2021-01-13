@@ -5,7 +5,7 @@ export default function loadScript (pUrl, pCallback)
 {
   const script = document.createElement('script')
   script.type = 'text/javascript'
-  script.onload = (evt) =>
+  script.onload = () =>
   {
     if (pCallback) pCallback()
   }
