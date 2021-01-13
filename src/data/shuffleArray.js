@@ -1,4 +1,4 @@
-export function shuffleArray (array)
+export default function shuffleArray (array)
 {
   for (let idx = array.length - 1; idx > 0; idx--)
   {

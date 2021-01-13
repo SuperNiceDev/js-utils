@@ -3,6 +3,7 @@ export { default as isUserAgentSearchBot } from './browser/isUserAgentSearchBot'
 // export {browser}
 
 export { getLocalStorageItem, setLocalStorageItem } from './data/localStrorage'
+export { default as shuffleArray } from './data/shuffleArray'
 
 export { default as loadScript } from './script/loadScript'
 
