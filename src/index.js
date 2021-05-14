@@ -5,6 +5,9 @@ export { default as isUserAgentSearchBot } from './browser/isUserAgentSearchBot'
 export { getLocalStorageItem, setLocalStorageItem } from './data/localStrorage'
 export { default as shuffleArray } from './data/shuffleArray'
 
+export { default as getRandomInt } from './number/getRandomInt'
+export { default as getRandomFloat } from './number/getRandomFloat'
+
 export { default as loadScript } from './script/loadScript'
 
 export { default as cleanPath } from './string/cleanPath'
