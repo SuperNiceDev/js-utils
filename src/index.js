@@ -7,6 +7,7 @@ export { default as shuffleArray } from './data/shuffleArray'
 
 export { default as getRandomInt } from './number/getRandomInt'
 export { default as getRandomFloat } from './number/getRandomFloat'
+export { default as getRangeProgress } from './number/getRangeProgress'
 
 export { default as loadScript } from './script/loadScript'
 
