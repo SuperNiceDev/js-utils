@@ -22,11 +22,11 @@ export const findNearestMarker = (markerList, lat, lng) => {
     var d = R * c;
     distances[k] = d;
     if (closest == -1 || d < distances[closest]) {
-      // closest = k;
-      closest = markerList[k];
+      closest = k;
     }
   }
 
+  // return markerList[closest];
   return closest;
 };
 
@@ -44,9 +44,9 @@ export const findNearestMarkerByAddress = (
     if (status === google.maps.GeocoderStatus.OK) {
       lat = results[0].geometry.location.lat();
       lng = results[0].geometry.location.lng();
+      const nearestMarker = findNearestMarker(markerList, lat, lng);
       // console.log("findNearestMarkerByAddress() lat: ", lat);
       // console.log("findNearestMarkerByAddress() lng: ", lng);
-      const nearestMarker = findNearestMarker(markerList, lat, lng);
       // console.log(
       //   "findNearestMarkerByAddress() nearestMarker: ",
       //   nearestMarker

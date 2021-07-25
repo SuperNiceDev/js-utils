@@ -6,6 +6,7 @@ export { getLocalStorageItem, setLocalStorageItem } from "./data/localStrorage";
 export { default as shuffleArray } from "./data/shuffleArray";
 
 export {
+  findNearestMarker,
   findNearestMarkerByAddress,
   getMarkerByAddress,
 } from "./google/google";
