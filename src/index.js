@@ -2,6 +2,7 @@ export { default as isUserAgentSearchBot } from "./browser/isUserAgentSearchBot"
 // import * as browser from './browser'
 // export {browser}
 
+export { default as insertAndShiftArray } from "./data/insertAndShiftArray";
 export { getLocalStorageItem, setLocalStorageItem } from "./data/localStrorage";
 export { default as shuffleArray } from "./data/shuffleArray";
 
