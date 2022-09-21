@@ -65,9 +65,9 @@ export const getMarkerByAddress = (google, address) =>
       if (!evt) {
         reject();
       } else {
-        const address = evt?.[0]?.formatted_address;
-        const lat = evt?.[0]?.geometry?.location.lat();
-        const lng = evt?.[0]?.geometry?.location.lng();
+        const address = evt[0].formatted_address;
+        const lat = evt[0].geometry.location.lat();
+        const lng = evt[0].geometry.location.lng();
         const latLng = {
           address,
           lat,
