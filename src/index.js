@@ -1,3 +1,4 @@
+export { default as debug } from "./browser/debug";
 export { default as isUserAgentSearchBot } from "./browser/isUserAgentSearchBot";
 // import * as browser from './browser'
 // export {browser}
