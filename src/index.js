@@ -16,6 +16,7 @@ export {
 export { default as getRandomInt } from "./number/getRandomInt";
 export { default as getRandomFloat } from "./number/getRandomFloat";
 export { default as getRangeProgress } from "./number/getRangeProgress";
+export { default as getRatioValue } from "./number/getRatioValue";
 
 export { default as loadScript } from "./script/loadScript";
 
